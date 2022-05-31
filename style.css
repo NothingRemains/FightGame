@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body{
+background: rgb(14,119,202);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(14,119,202,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+h1{  
+text-align: center;
+text-shadow: 2px 2px 5px blue;
+position:relative;
+}
+
+main {
+  display: block;
+  align-content: center;
+  justify-content: center;
+}
+
+#playerSection{
+padding-left: 5vw;
+text-align:left;
+position:absolute 
+}
+
+#enemySection{
+padding-right: 5vw;
+text-align: right;
+
+}
+
+#actionsButtons {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

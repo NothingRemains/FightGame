@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
